@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{9f644e77-f744-43fb-993c-b39e6220590d}">
+		<property name="assetPath">
+			<value>Footstep, Feet, Jump Into Water, One Foot 1 SND17175.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>1.2457369614512472</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d47fbdba-3430-421a-9238-72af008289a8}</destination>
+		</relationship>
+	</object>
+</objects>

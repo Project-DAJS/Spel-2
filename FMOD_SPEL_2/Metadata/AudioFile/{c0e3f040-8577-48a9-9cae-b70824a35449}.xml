@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{c0e3f040-8577-48a9-9cae-b70824a35449}">
+		<property name="assetPath">
+			<value>Waterballoon by steveygos93 Id-93569.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>1.4016553287981859</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d47fbdba-3430-421a-9238-72af008289a8}</destination>
+		</relationship>
+	</object>
+</objects>
