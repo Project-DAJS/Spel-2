@@ -63,7 +63,7 @@
 	<object class="MarkerTrack" id="{e63b9b1b-a94a-4526-b53f-a5afaf58f0a8}" />
 	<object class="GroupTrack" id="{52ed9d07-18ac-43a4-803f-cce19ecdefc6}">
 		<relationship name="modules">
-			<destination>{74eba7b5-7d01-4ab1-aad2-3df32199b8ab}</destination>
+			<destination>{eb2da7b0-014b-4c63-a432-9009d0c734b5}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{e63103a3-6519-4cb7-8391-188a01383c7a}</destination>
@@ -119,13 +119,13 @@
 	</object>
 	<object class="Timeline" id="{c3124faf-f3da-4275-bdbd-31611664ad7d}">
 		<relationship name="modules">
-			<destination>{74eba7b5-7d01-4ab1-aad2-3df32199b8ab}</destination>
 			<destination>{98ec00d3-1c8b-41c7-b7a4-dba0236e0df0}</destination>
 			<destination>{3cb97e6f-bf83-470d-82e5-42235993333f}</destination>
 			<destination>{fec66911-a743-4b9c-9e43-8c58f29d4dc2}</destination>
 			<destination>{b34c5334-ae0c-42e0-9e33-345ed497d355}</destination>
 			<destination>{e4dd6e13-1b5e-405c-8b2d-7182583ab98a}</destination>
 			<destination>{1b4823aa-7c03-46a9-b2b2-76f8de1edfb5}</destination>
+			<destination>{eb2da7b0-014b-4c63-a432-9009d0c734b5}</destination>
 		</relationship>
 		<relationship name="markers">
 			<destination>{f9289db8-0066-4234-9820-348689b61f30}</destination>
@@ -148,21 +148,12 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{6564a0d4-fc7a-4454-8be8-6f302292f99d}" />
-	<object class="SingleSound" id="{74eba7b5-7d01-4ab1-aad2-3df32199b8ab}">
+	<object class="SingleSound" id="{eb2da7b0-014b-4c63-a432-9009d0c734b5}">
 		<property name="length">
-			<value>60</value>
-		</property>
-		<property name="timelockedOffset">
-			<value>22.272467953508482</value>
-		</property>
-		<property name="pitch">
-			<value>-2</value>
-		</property>
-		<property name="looping">
-			<value>true</value>
+			<value>59.951814058956913</value>
 		</property>
 		<relationship name="audioFile">
-			<destination>{2e8e27b9-7a0f-45c9-b611-d2a5bc1cf871}</destination>
+			<destination>{d00ccefe-b181-4749-ab22-b40d765c2c98}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{e63103a3-6519-4cb7-8391-188a01383c7a}">
@@ -409,7 +400,7 @@
 			<value>0</value>
 		</property>
 		<property name="length">
-			<value>60</value>
+			<value>59.951814058956913</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{c3124faf-f3da-4275-bdbd-31611664ad7d}</destination>
