@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{e631252d-4245-488e-b3f2-e8aea3f237cd}">
+		<property name="assetPath">
+			<value>Ambience/Design, Whoosh, Wind, Crisp, Calm 2 SND12001.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>4</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d47fbdba-3430-421a-9238-72af008289a8}</destination>
+		</relationship>
+	</object>
+</objects>

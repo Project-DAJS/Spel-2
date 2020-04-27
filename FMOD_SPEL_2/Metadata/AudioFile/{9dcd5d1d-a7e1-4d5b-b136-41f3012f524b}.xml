@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{9dcd5d1d-a7e1-4d5b-b136-41f3012f524b}">
+		<property name="assetPath">
+			<value>Character SFX/Objects/Toys, Water Gun, Pump Action, Plastic, Squirt Water 3 SND29632 1.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.94920634920634916</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d47fbdba-3430-421a-9238-72af008289a8}</destination>
+		</relationship>
+	</object>
+</objects>

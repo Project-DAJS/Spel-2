@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{d3c185fc-fd4a-40d6-9ad3-2e462e2b7a13}">
+		<property name="assetPath">
+			<value>Character SFX/Objects/Paper, Mail, Bills, Small Pile, Pick Up From Wooden Surface SND17848.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.93782312925170064</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d47fbdba-3430-421a-9238-72af008289a8}</destination>
+		</relationship>
+	</object>
+</objects>
