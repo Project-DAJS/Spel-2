@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="Event" id="{1565c951-9bf0-4772-ac0f-0b6ce7f533a5}">
 		<property name="name">
-			<value>Pick up Rock</value>
+			<value>Pick up Kakelbit</value>
 		</property>
 		<property name="outputFormat">
 			<value>0</value>
@@ -89,6 +89,9 @@
 		<property name="length">
 			<value>0.26458049886621315</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{77d3658a-5bc0-415b-9fcb-77e324dcca34}</destination>
+		</relationship>
 		<relationship name="audioFile">
 			<destination>{9143f768-f63b-4489-bee2-ab4013ead43a}</destination>
 		</relationship>
@@ -114,6 +117,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{0b00212c-734e-4df0-a0b5-7608fcf43734}" />
 	<object class="MixerBusFader" id="{9def52ed-dd99-4ec6-9a8a-08391ace1679}" />
+	<object class="RandomizerModulator" id="{77d3658a-5bc0-415b-9fcb-77e324dcca34}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="amount">
+			<value>7.5</value>
+		</property>
+	</object>
 	<object class="MixerBusEffectChain" id="{d82a37bd-0304-4457-aac6-f82956d4cab8}">
 		<relationship name="effects">
 			<destination>{b1228a70-9680-4b7e-aa88-d3882394867c}</destination>

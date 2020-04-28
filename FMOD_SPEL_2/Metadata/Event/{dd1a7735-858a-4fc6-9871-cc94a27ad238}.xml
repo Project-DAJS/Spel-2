@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="Event" id="{dd1a7735-858a-4fc6-9871-cc94a27ad238}">
 		<property name="name">
-			<value>Dörr 1</value>
+			<value>Gate till Hopptorn</value>
 		</property>
 		<property name="outputFormat">
 			<value>0</value>
@@ -56,11 +56,18 @@
 	<object class="EventAutomatableProperties" id="{990dc1c5-43ac-40f7-b92f-c7471f90dd05}" />
 	<object class="MarkerTrack" id="{500be499-2d17-42c8-b3d0-264a1c18378a}" />
 	<object class="GroupTrack" id="{56e2bacf-f227-4a51-b603-41ee953d2983}">
+		<relationship name="modules">
+			<destination>{7c26dc22-bc40-46c2-b5d0-1b44739a431b}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{80ec45e6-b61b-4fe6-acac-069f30d18586}</destination>
 		</relationship>
 	</object>
-	<object class="Timeline" id="{cf7e4a40-c20b-4a17-b1ab-1282845e94db}" />
+	<object class="Timeline" id="{cf7e4a40-c20b-4a17-b1ab-1282845e94db}">
+		<relationship name="modules">
+			<destination>{7c26dc22-bc40-46c2-b5d0-1b44739a431b}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerMaster" id="{ec32b58e-8490-45bd-be04-e75524be350c}">
 		<relationship name="effectChain">
 			<destination>{8d9116a9-6519-4fac-b2d4-2728cbb3b880}</destination>
@@ -78,9 +85,17 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{0b7dca97-346b-4bf4-9e79-179089553c60}" />
+	<object class="SingleSound" id="{7c26dc22-bc40-46c2-b5d0-1b44739a431b}">
+		<property name="length">
+			<value>2.915034013605442</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{8017bc0e-2075-4fb4-bbf2-75fbab0a54f4}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerGroup" id="{80ec45e6-b61b-4fe6-acac-069f30d18586}">
 		<property name="name">
-			<value>Audio 1</value>
+			<value>gate</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{e56e70a2-0bd1-4991-8e29-92108035a9a9}</destination>
