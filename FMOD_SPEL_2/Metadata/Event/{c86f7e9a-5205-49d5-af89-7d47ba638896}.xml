@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="Event" id="{c86f7e9a-5205-49d5-af89-7d47ba638896}">
 		<property name="name">
-			<value>Rock Land</value>
+			<value>Rock Land on ground</value>
 		</property>
 		<property name="outputFormat">
 			<value>0</value>

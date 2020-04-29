@@ -198,6 +198,9 @@
 		<property name="length">
 			<value>2</value>
 		</property>
+		<property name="minimumScatterDistance">
+			<value>7.20000029</value>
+		</property>
 		<relationship name="sound">
 			<destination>{69b06914-b6fe-416a-8b5a-fa7a0bedbf03}</destination>
 		</relationship>
