@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerReturn" id="{bcc875f6-301d-4d52-b88f-e7f996e696a9}">
+		<property name="name">
+			<value>Corridor badhus</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{c6d2ac3f-8b35-49b2-9cea-892a031fab9d}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{b8d9c61b-1a40-4342-b5d5-28b4319f15df}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{61150af0-f58b-4ebe-8031-02ad5e0598a0}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{c6d2ac3f-8b35-49b2-9cea-892a031fab9d}">
+		<relationship name="effects">
+			<destination>{c1922c3d-d2f2-4d14-93f7-a975836a6c7d}</destination>
+			<destination>{394348ab-b09e-42c7-9804-8e307f62defc}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{b8d9c61b-1a40-4342-b5d5-28b4319f15df}" />
+	<object class="ConvolutionReverbEffect" id="{c1922c3d-d2f2-4d14-93f7-a975836a6c7d}">
+		<property name="endFrame">
+			<value>97848</value>
+		</property>
+		<relationship name="referenceableData">
+			<destination>{8f267c04-0e5d-4149-bba1-4b1446889c18}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusFader" id="{394348ab-b09e-42c7-9804-8e307f62defc}" />
+</objects>

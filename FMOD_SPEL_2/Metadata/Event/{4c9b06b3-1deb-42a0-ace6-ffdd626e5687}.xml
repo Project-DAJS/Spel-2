@@ -32,6 +32,9 @@
 		<relationship name="timeline">
 			<destination>{01525a51-1871-4614-94d2-319026000da2}</destination>
 		</relationship>
+		<relationship name="banks">
+			<destination>{48d747e1-b3be-4901-ab1a-e0ebc50a66c8}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixer" id="{c8e00886-102a-4f85-bc01-798d0996c8d6}">
 		<relationship name="masterBus">
@@ -111,7 +114,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{3a96aa1b-7696-4552-aac6-86d88ba4ea83}">
 		<property name="volume">
-			<value>-10.5</value>
+			<value>-13</value>
 		</property>
 		<property name="name">
 			<value>locker room</value>

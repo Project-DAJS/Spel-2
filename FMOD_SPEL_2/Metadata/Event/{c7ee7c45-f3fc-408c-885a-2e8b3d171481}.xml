@@ -31,6 +31,9 @@
 		<relationship name="timeline">
 			<destination>{82a254a0-6728-4581-af46-f38c6c9783bd}</destination>
 		</relationship>
+		<relationship name="banks">
+			<destination>{48d747e1-b3be-4901-ab1a-e0ebc50a66c8}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixer" id="{47bd0fa3-119b-4175-b889-a221ceea2671}">
 		<relationship name="masterBus">
@@ -140,6 +143,7 @@
 	<object class="MixerBusEffectChain" id="{a6133ca0-e2aa-48ad-9237-b5d2b13c369f}">
 		<relationship name="effects">
 			<destination>{e5189820-f0f2-4b76-8bb0-4fcf7c4fb78e}</destination>
+			<destination>{ef7b3a4b-867e-4b29-85a2-ce5a3e411502}</destination>
 			<destination>{6bbf13b7-1420-4d38-b43c-33347de5abce}</destination>
 		</relationship>
 	</object>
@@ -152,6 +156,17 @@
 		<property name="lowCrossover">
 			<value>320</value>
 		</property>
+	</object>
+	<object class="MixerSend" id="{ef7b3a4b-867e-4b29-85a2-ce5a3e411502}">
+		<property name="level">
+			<value>-41</value>
+		</property>
+		<property name="inputFormat">
+			<value>1</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{f06e27fa-9849-4c64-8f24-25b14731e873}</destination>
+		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{6bbf13b7-1420-4d38-b43c-33347de5abce}" />
 </objects>

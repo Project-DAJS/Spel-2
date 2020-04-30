@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerReturn" id="{c6d5dfc2-5426-40e8-9a6a-ffeb6d0ab511}">
+		<property name="name">
+			<value>Skog</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{10280246-f108-4242-bd70-df7a51c5c282}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{11f1f6af-6d76-4a40-ba52-fddf7f11062e}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{61150af0-f58b-4ebe-8031-02ad5e0598a0}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{10280246-f108-4242-bd70-df7a51c5c282}">
+		<relationship name="effects">
+			<destination>{c00a2407-cbca-429c-ba32-b59e94ef6cb8}</destination>
+			<destination>{0d82c256-c306-4cfc-82de-df90dbe37f0b}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{11f1f6af-6d76-4a40-ba52-fddf7f11062e}" />
+	<object class="ConvolutionReverbEffect" id="{c00a2407-cbca-429c-ba32-b59e94ef6cb8}">
+		<property name="endFrame">
+			<value>122732</value>
+		</property>
+		<relationship name="referenceableData">
+			<destination>{164e7339-de77-4219-a859-9fc042ca27a4}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusFader" id="{0d82c256-c306-4cfc-82de-df90dbe37f0b}" />
+</objects>

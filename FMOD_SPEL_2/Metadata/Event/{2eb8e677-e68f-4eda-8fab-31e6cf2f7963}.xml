@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="Event" id="{2eb8e677-e68f-4eda-8fab-31e6cf2f7963}">
 		<property name="name">
-			<value>Reach surface</value>
+			<value>Reach surface pool</value>
 		</property>
 		<property name="outputFormat">
 			<value>0</value>
@@ -30,6 +30,9 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{397aead5-d754-41ee-8ca2-789780d9e684}</destination>
+		</relationship>
+		<relationship name="banks">
+			<destination>{02be6085-bf05-417a-b6fc-9624782685c5}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{4f6d82d3-8bc7-4a4d-a83b-547d5df50bf5}">
@@ -109,6 +112,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{ceb49293-e6a1-4527-8c80-dee73ca94009}">
 		<relationship name="effects">
+			<destination>{ad6f22da-bb68-4240-b06b-5e7646d6d715}</destination>
 			<destination>{742109ef-df43-4dad-afa9-e073583bd93f}</destination>
 		</relationship>
 	</object>
@@ -120,6 +124,17 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{487fe70a-2f9f-4f6e-91ab-3a420dcf5cc2}" />
+	<object class="MixerSend" id="{ad6f22da-bb68-4240-b06b-5e7646d6d715}">
+		<property name="level">
+			<value>-31</value>
+		</property>
+		<property name="inputFormat">
+			<value>0</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{f06e27fa-9849-4c64-8f24-25b14731e873}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{742109ef-df43-4dad-afa9-e073583bd93f}" />
 	<object class="MixerBusFader" id="{d71ab286-8f38-48fa-9912-c42988848d8f}" />
 </objects>
