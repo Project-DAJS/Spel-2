@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerReturn" id="{50634bbc-bba9-45c5-88c7-d61a0f970402}">
+		<property name="name">
+			<value>Surreal</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{a729c2c3-c4b0-4551-82b8-fa0a27ee1cad}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{61d0b09b-db6e-4a2a-8d3e-547f99de7d8d}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{61150af0-f58b-4ebe-8031-02ad5e0598a0}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{a729c2c3-c4b0-4551-82b8-fa0a27ee1cad}">
+		<relationship name="effects">
+			<destination>{f9b0d690-ea73-4a43-9141-133ebaab5dc1}</destination>
+			<destination>{d62efc31-0dda-4a8e-bd9a-3fe7b8d1c322}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{61d0b09b-db6e-4a2a-8d3e-547f99de7d8d}" />
+	<object class="ConvolutionReverbEffect" id="{f9b0d690-ea73-4a43-9141-133ebaab5dc1}">
+		<property name="endFrame">
+			<value>277000</value>
+		</property>
+		<relationship name="referenceableData">
+			<destination>{df2ec6f7-faeb-479a-9a57-ed5257a702ea}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusFader" id="{d62efc31-0dda-4a8e-bd9a-3fe7b8d1c322}" />
+</objects>
