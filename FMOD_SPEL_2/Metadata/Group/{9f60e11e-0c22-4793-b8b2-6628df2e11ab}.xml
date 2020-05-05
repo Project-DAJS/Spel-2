@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{9f60e11e-0c22-4793-b8b2-6628df2e11ab}">
+		<property name="name">
+			<value>Badhus Spots</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{61463cfb-c108-4a55-90c0-07a5a073a979}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{a2b34a24-748a-44d7-ac21-bafdba3cf885}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{15e8e758-4fee-46e4-814e-759b068b5cb0}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{61463cfb-c108-4a55-90c0-07a5a073a979}">
+		<relationship name="effects">
+			<destination>{626f839d-47f8-430d-83f4-e202e9963b97}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{a2b34a24-748a-44d7-ac21-bafdba3cf885}" />
+	<object class="MixerBusFader" id="{626f839d-47f8-430d-83f4-e202e9963b97}" />
+</objects>

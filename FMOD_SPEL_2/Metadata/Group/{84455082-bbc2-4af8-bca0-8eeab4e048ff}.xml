@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{84455082-bbc2-4af8-bca0-8eeab4e048ff}">
+		<property name="name">
+			<value>Corridor Ambience</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{abf75579-2dfa-4684-a893-7b229d2b84af}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{23671b6c-445c-42e7-ac84-c55f7309afc2}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{15e8e758-4fee-46e4-814e-759b068b5cb0}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{abf75579-2dfa-4684-a893-7b229d2b84af}">
+		<relationship name="effects">
+			<destination>{5b28a760-f2ff-410f-9b75-779a8c1b9dcd}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{23671b6c-445c-42e7-ac84-c55f7309afc2}" />
+	<object class="MixerBusFader" id="{5b28a760-f2ff-410f-9b75-779a8c1b9dcd}" />
+</objects>

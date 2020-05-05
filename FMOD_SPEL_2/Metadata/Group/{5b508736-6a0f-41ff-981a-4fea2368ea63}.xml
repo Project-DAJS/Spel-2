@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{5b508736-6a0f-41ff-981a-4fea2368ea63}">
+		<property name="name">
+			<value>Dark pool spots</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{b2784e4c-78ac-40d5-b9a8-6c51c9eccdac}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{cfff310d-6303-4bda-8ad8-a935ef58de4f}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{15e8e758-4fee-46e4-814e-759b068b5cb0}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{b2784e4c-78ac-40d5-b9a8-6c51c9eccdac}">
+		<relationship name="effects">
+			<destination>{eaee93ef-f2a9-4ccb-981f-24a3656be2c1}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{cfff310d-6303-4bda-8ad8-a935ef58de4f}" />
+	<object class="MixerBusFader" id="{eaee93ef-f2a9-4ccb-981f-24a3656be2c1}" />
+</objects>

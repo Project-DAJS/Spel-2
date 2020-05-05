@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{910f40ea-3b6e-4165-bf13-efce9863d7d0}">
+		<property name="name">
+			<value>Badhus Ambience</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{b51631f4-d28e-4cef-bb42-0fa4f316a555}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{e1c4d2d0-6aa3-49ab-9f9a-d341c8f7b7fe}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{15e8e758-4fee-46e4-814e-759b068b5cb0}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{b51631f4-d28e-4cef-bb42-0fa4f316a555}">
+		<relationship name="effects">
+			<destination>{9640cfa4-983f-44f8-825f-9da6c8adc840}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{e1c4d2d0-6aa3-49ab-9f9a-d341c8f7b7fe}" />
+	<object class="MixerBusFader" id="{9640cfa4-983f-44f8-825f-9da6c8adc840}" />
+</objects>

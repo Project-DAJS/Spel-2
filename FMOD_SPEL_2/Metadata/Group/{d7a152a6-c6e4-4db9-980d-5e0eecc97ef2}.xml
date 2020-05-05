@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{d7a152a6-c6e4-4db9-980d-5e0eecc97ef2}">
+		<property name="name">
+			<value>Corridor Spot</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{121a1d5b-553f-4602-823e-2cb4926fd581}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{09c0ebf6-10b9-41d2-b05b-4c434f86f310}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{15e8e758-4fee-46e4-814e-759b068b5cb0}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{121a1d5b-553f-4602-823e-2cb4926fd581}">
+		<relationship name="effects">
+			<destination>{6f080d7c-9436-4e2f-9e8a-0fc14477e276}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{09c0ebf6-10b9-41d2-b05b-4c434f86f310}" />
+	<object class="MixerBusFader" id="{6f080d7c-9436-4e2f-9e8a-0fc14477e276}" />
+</objects>

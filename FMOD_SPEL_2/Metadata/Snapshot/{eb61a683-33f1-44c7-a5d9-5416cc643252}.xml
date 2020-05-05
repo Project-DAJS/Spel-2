@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="Snapshot" id="{eb61a683-33f1-44c7-a5d9-5416cc643252}">
+		<property name="name">
+			<value>Locker room</value>
+		</property>
+		<relationship name="mixer">
+			<destination>{e634c596-ad87-4f81-a8ca-b33305696829}</destination>
+		</relationship>
+		<relationship name="automatableProperties">
+			<destination>{689c1210-a0af-4145-8edc-558593e4c9d2}</destination>
+		</relationship>
+		<relationship name="markerTracks">
+			<destination>{c3ac03ac-e48b-4dc2-962c-a2a59091f89a}</destination>
+		</relationship>
+		<relationship name="timeline">
+			<destination>{14cdcd25-f7a5-4fd1-8b1c-2767cf031ee9}</destination>
+		</relationship>
+		<relationship name="snapshotMasterTrack">
+			<destination>{56349990-fc85-4920-baeb-025826c1128a}</destination>
+		</relationship>
+	</object>
+	<object class="EventAutomatableProperties" id="{689c1210-a0af-4145-8edc-558593e4c9d2}" />
+	<object class="MarkerTrack" id="{c3ac03ac-e48b-4dc2-962c-a2a59091f89a}" />
+	<object class="Timeline" id="{14cdcd25-f7a5-4fd1-8b1c-2767cf031ee9}" />
+	<object class="SnapshotMasterTrack" id="{56349990-fc85-4920-baeb-025826c1128a}" />
+</objects>

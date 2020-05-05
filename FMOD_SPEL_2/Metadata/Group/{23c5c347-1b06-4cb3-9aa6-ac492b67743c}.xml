@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{23c5c347-1b06-4cb3-9aa6-ac492b67743c}">
+		<property name="name">
+			<value>Locker Room Ambience</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{32fd56ac-4ea7-4588-8ec2-64a3aff3767e}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{25ac25b2-11af-444f-8ea3-cd87f92d4eee}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{15e8e758-4fee-46e4-814e-759b068b5cb0}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{32fd56ac-4ea7-4588-8ec2-64a3aff3767e}">
+		<relationship name="effects">
+			<destination>{4212b73a-804c-4894-b263-7dfeb163edc3}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{25ac25b2-11af-444f-8ea3-cd87f92d4eee}" />
+	<object class="MixerBusFader" id="{4212b73a-804c-4894-b263-7dfeb163edc3}" />
+</objects>

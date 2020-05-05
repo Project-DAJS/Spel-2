@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="Snapshot" id="{9dddea42-8d63-4644-b226-2e284f45cc00}">
+		<property name="name">
+			<value>Dark Badhus</value>
+		</property>
+		<relationship name="mixer">
+			<destination>{e634c596-ad87-4f81-a8ca-b33305696829}</destination>
+		</relationship>
+		<relationship name="automatableProperties">
+			<destination>{07198bb4-dbb4-4d80-918c-d53f4ce6ccd0}</destination>
+		</relationship>
+		<relationship name="markerTracks">
+			<destination>{091d34b0-35dc-4529-9bff-96fd04c33e7f}</destination>
+		</relationship>
+		<relationship name="timeline">
+			<destination>{da098956-dbd4-451d-89e9-3a7d6bcb3094}</destination>
+		</relationship>
+		<relationship name="snapshotMasterTrack">
+			<destination>{f111331c-3cf9-4088-bff3-aab7ec9c9d66}</destination>
+		</relationship>
+	</object>
+	<object class="EventAutomatableProperties" id="{07198bb4-dbb4-4d80-918c-d53f4ce6ccd0}" />
+	<object class="MarkerTrack" id="{091d34b0-35dc-4529-9bff-96fd04c33e7f}" />
+	<object class="Timeline" id="{da098956-dbd4-451d-89e9-3a7d6bcb3094}" />
+	<object class="SnapshotMasterTrack" id="{f111331c-3cf9-4088-bff3-aab7ec9c9d66}" />
+</objects>

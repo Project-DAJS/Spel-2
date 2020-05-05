@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{e83c2f0b-fc57-4e24-a7f7-85528b04a99a}">
+		<property name="name">
+			<value>Character Foley</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{7db9b0fb-bbf0-4f0f-a67d-5a71e1335d21}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{e95d0d51-5509-4c27-b8fd-04a2ae74e779}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{15e8e758-4fee-46e4-814e-759b068b5cb0}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{7db9b0fb-bbf0-4f0f-a67d-5a71e1335d21}">
+		<relationship name="effects">
+			<destination>{17475fd6-0cba-40d6-84f6-31586940e7d6}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{e95d0d51-5509-4c27-b8fd-04a2ae74e779}" />
+	<object class="MixerBusFader" id="{17475fd6-0cba-40d6-84f6-31586940e7d6}" />
+</objects>

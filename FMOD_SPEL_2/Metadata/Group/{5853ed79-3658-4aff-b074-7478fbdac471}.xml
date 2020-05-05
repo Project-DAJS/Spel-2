@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{5853ed79-3658-4aff-b074-7478fbdac471}">
+		<property name="name">
+			<value>Critters</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{fb6032d7-89e2-488e-88ce-ac7c992acb2f}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{1a4d74bd-7682-4921-b2b8-3a856636ea2f}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{15e8e758-4fee-46e4-814e-759b068b5cb0}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{fb6032d7-89e2-488e-88ce-ac7c992acb2f}">
+		<relationship name="effects">
+			<destination>{d2f910bf-29df-4db5-b39a-2884a26bdd0d}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{1a4d74bd-7682-4921-b2b8-3a856636ea2f}" />
+	<object class="MixerBusFader" id="{d2f910bf-29df-4db5-b39a-2884a26bdd0d}" />
+</objects>

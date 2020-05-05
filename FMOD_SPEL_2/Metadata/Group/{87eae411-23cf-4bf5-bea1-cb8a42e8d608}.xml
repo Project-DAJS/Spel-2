@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{87eae411-23cf-4bf5-bea1-cb8a42e8d608}">
+		<property name="name">
+			<value>Underwater Ambience</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{bd1fa7c8-3c40-479d-bde0-f3d59614a117}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{da63d35c-1003-4f55-9dbf-91c33be1e5ee}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{15e8e758-4fee-46e4-814e-759b068b5cb0}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{bd1fa7c8-3c40-479d-bde0-f3d59614a117}">
+		<relationship name="effects">
+			<destination>{8909c03d-7d62-4b35-a978-182848ddfd27}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{da63d35c-1003-4f55-9dbf-91c33be1e5ee}" />
+	<object class="MixerBusFader" id="{8909c03d-7d62-4b35-a978-182848ddfd27}" />
+</objects>

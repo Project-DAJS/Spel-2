@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.00.00">
 	<object class="Workspace" id="{814390fa-81f5-4a4b-8f67-8fd1cd28be7d}">
+		<property name="builtBanksOutputDirectory">
+			<value>../../../../Downloads/UE4 - TEAM 2/Gestaltningsprojekt-Team-2/UEProject/Content/FMOD</value>
+		</property>
 		<relationship name="masterEventFolder">
 			<destination>{234bb528-3a92-4e70-ac77-17f3b5b80fa1}</destination>
 		</relationship>
