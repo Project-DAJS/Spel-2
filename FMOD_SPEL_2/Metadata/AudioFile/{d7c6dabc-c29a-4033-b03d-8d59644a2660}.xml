@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.00.00">
-	<object class="AudioFile" id="{164e7339-de77-4219-a859-9fc042ca27a4}">
+	<object class="AudioFile" id="{d7c6dabc-c29a-4033-b03d-8d59644a2660}">
 		<property name="assetPath">
-			<value>Woods1.wav</value>
+			<value>Reverbs/Woods1.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>96</value>

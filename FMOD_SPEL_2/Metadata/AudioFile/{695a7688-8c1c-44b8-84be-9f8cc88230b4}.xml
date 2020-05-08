@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.00.00">
-	<object class="AudioFile" id="{2e6df261-c72f-4406-ba96-c22cdd75914f}">
+	<object class="AudioFile" id="{695a7688-8c1c-44b8-84be-9f8cc88230b4}">
 		<property name="assetPath">
-			<value>ForestLeftPair.wav</value>
+			<value>Character SFX/Objects/Chair, Stool, Drag, Hard Floor 3 SND24199 1.1.wav</value>
 		</property>
 		<property name="frequencyInKHz">
-			<value>96</value>
+			<value>44.0999985</value>
 		</property>
 		<property name="channelCount">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<property name="length">
-			<value>1.7314895833333332</value>
+			<value>1.7427210884353741</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{d47fbdba-3430-421a-9238-72af008289a8}</destination>

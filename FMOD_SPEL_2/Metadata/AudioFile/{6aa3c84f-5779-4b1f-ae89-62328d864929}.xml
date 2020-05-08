@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.00.00">
-	<object class="AudioFile" id="{249c2509-6472-4b74-947b-907697b8e52c}">
+	<object class="AudioFile" id="{6aa3c84f-5779-4b1f-ae89-62328d864929}">
 		<property name="assetPath">
-			<value>Destin Master Bathroom 8X12.wav</value>
+			<value>Character SFX/Objects/Chair, Stool, Drag, Hard Floor 1 SND24201 1.wav</value>
 		</property>
 		<property name="frequencyInKHz">
-			<value>96</value>
+			<value>44.0999985</value>
 		</property>
 		<property name="channelCount">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<property name="length">
-			<value>0.9459791666666667</value>
+			<value>2.3082312925170068</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{d47fbdba-3430-421a-9238-72af008289a8}</destination>

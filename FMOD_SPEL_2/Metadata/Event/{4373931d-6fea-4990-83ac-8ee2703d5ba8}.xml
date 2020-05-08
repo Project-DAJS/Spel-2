@@ -514,7 +514,7 @@
 	<object class="MixerBusFader" id="{f79d6e18-cf1c-4a49-bacc-aca8ff786cc4}" />
 	<object class="MixerSend" id="{a5fba059-fdaf-46cb-aa82-5dcb7688351b}">
 		<property name="level">
-			<value>-29</value>
+			<value>-31</value>
 		</property>
 		<property name="inputFormat">
 			<value>0</value>

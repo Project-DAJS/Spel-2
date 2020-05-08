@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.00.00">
-	<object class="AudioFile" id="{df2ec6f7-faeb-479a-9a57-ed5257a702ea}">
+	<object class="AudioFile" id="{ab3d2bbe-040a-4b79-9256-5dbf7ab4193a}">
 		<property name="assetPath">
-			<value>Surreal_61.wav</value>
+			<value>Character SFX/Breath/Human, Breath, Panting, Out Of Breath SND12816.13.wav</value>
 		</property>
 		<property name="frequencyInKHz">
-			<value>96</value>
+			<value>44.0999985</value>
 		</property>
 		<property name="channelCount">
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>2.8854583333333332</value>
+			<value>1.589591836734694</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{d47fbdba-3430-421a-9238-72af008289a8}</destination>

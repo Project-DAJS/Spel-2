@@ -343,14 +343,12 @@
 	</object>
 	<object class="MixerBusPanner" id="{3cff9324-686b-449e-8607-b0db7fdbd10b}" />
 	<object class="MultiSound" id="{a09ebdc7-f86e-4ea0-8287-a5fac435ff1a}">
-		<property name="playlistMode">
-			<value>1</value>
-		</property>
 		<relationship name="sounds">
 			<destination>{ae17f439-634a-4081-b28e-6b0a9100abfd}</destination>
 			<destination>{f506d299-d75a-430a-8c07-2a4b2df5ce21}</destination>
 			<destination>{cb058857-c304-4148-9a42-ec61878aec6b}</destination>
 			<destination>{057558fc-5b6f-4c79-933b-3a71e6d28c33}</destination>
+			<destination>{d388d89e-5b13-42e2-bb57-c05a6c76f809}</destination>
 		</relationship>
 	</object>
 	<object class="Automator" id="{734eee2b-29ca-4f98-b49d-14a5d1d7b86b}">
@@ -369,7 +367,7 @@
 	<object class="MixerBusPanner" id="{4034f70e-153d-476d-995c-7a1af95ebb66}" />
 	<object class="MixerSend" id="{2d2f6447-57ca-437a-b24b-58c2c7a7576d}">
 		<property name="level">
-			<value>-9.5</value>
+			<value>-19.5</value>
 		</property>
 		<property name="inputFormat">
 			<value>5</value>
@@ -379,6 +377,9 @@
 		</relationship>
 	</object>
 	<object class="MixerSend" id="{7fbbc41f-5986-498a-80be-c8a1a058805f}">
+		<property name="level">
+			<value>-40</value>
+		</property>
 		<property name="inputFormat">
 			<value>5</value>
 		</property>
@@ -520,6 +521,17 @@
 			<destination>{bbf9373f-417e-4d2d-bf8a-5a6c161878dc}</destination>
 		</relationship>
 	</object>
+	<object class="SingleSound" id="{d388d89e-5b13-42e2-bb57-c05a6c76f809}">
+		<property name="volume">
+			<value>-5</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{735eff78-9504-4bde-acdd-a4939efd33ae}</destination>
+		</relationship>
+		<relationship name="audioFile">
+			<destination>{c74b188d-5635-475c-b212-88f2a2828437}</destination>
+		</relationship>
+	</object>
 	<object class="AutomationCurve" id="{6fb13ed1-8902-4dc7-ae8b-9c8c2bb5194e}">
 		<relationship name="parameter">
 			<destination>{932ffcce-91d3-42f7-8211-5b1c167ce8a2}</destination>
@@ -616,6 +628,14 @@
 		</property>
 		<property name="curveShape">
 			<value>-0.291461736</value>
+		</property>
+	</object>
+	<object class="RandomizerModulator" id="{735eff78-9504-4bde-acdd-a4939efd33ae}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="amount">
+			<value>10</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{8f1f26be-fc0c-4db1-b410-9550bf7cecae}">

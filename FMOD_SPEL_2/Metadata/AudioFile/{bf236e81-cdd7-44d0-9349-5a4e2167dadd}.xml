@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.00.00">
-	<object class="AudioFile" id="{8f267c04-0e5d-4149-bba1-4b1446889c18}">
+	<object class="AudioFile" id="{bf236e81-cdd7-44d0-9349-5a4e2167dadd}">
 		<property name="assetPath">
-			<value>Destin Bathroom 11X15.wav</value>
+			<value>Reverbs/Lookout Mtn Bathroom1.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>96</value>
@@ -11,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>1.02246875</value>
+			<value>0.72362499999999996</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{d47fbdba-3430-421a-9238-72af008289a8}</destination>

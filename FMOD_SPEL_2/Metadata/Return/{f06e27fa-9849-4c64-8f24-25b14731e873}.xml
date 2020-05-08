@@ -32,7 +32,7 @@
 			<value>68651</value>
 		</property>
 		<relationship name="referenceableData">
-			<destination>{6821f646-d8f6-4417-acdf-a17964c23211}</destination>
+			<destination>{bf236e81-cdd7-44d0-9349-5a4e2167dadd}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{595718e1-4d61-4344-a443-c5b2c21a82a7}" />

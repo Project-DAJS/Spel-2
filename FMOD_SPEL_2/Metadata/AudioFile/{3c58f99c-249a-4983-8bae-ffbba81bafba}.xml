@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.00.00">
-	<object class="AudioFile" id="{9d62f8a9-0a24-4208-b025-5efcd05fd536}">
+	<object class="AudioFile" id="{3c58f99c-249a-4983-8bae-ffbba81bafba}">
 		<property name="assetPath">
-			<value>ForestRightPair.wav</value>
+			<value>Character SFX/Breath/Human, Breath, Panting, Out Of Breath SND12816.5.wav</value>
 		</property>
 		<property name="frequencyInKHz">
-			<value>96</value>
+			<value>44.0999985</value>
 		</property>
 		<property name="channelCount">
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>1.9982500000000001</value>
+			<value>1.708344671201814</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{d47fbdba-3430-421a-9238-72af008289a8}</destination>

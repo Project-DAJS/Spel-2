@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.00.00">
-	<object class="AudioFile" id="{3c283a21-d159-4942-b387-deeadd1a2a1b}">
+	<object class="AudioFile" id="{db67c294-672e-4a14-a95b-35dacebe5a91}">
 		<property name="assetPath">
-			<value>Natchez Trace Forest.wav</value>
+			<value>Character SFX/Breath/Human, Breath, Panting, Out Of Breath SND12816.9.wav</value>
 		</property>
 		<property name="frequencyInKHz">
-			<value>96</value>
+			<value>44.0999985</value>
 		</property>
 		<property name="channelCount">
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>1.5884791666666667</value>
+			<value>1.5833333333333333</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{d47fbdba-3430-421a-9238-72af008289a8}</destination>

@@ -25,9 +25,6 @@
 		<property name="endFrame">
 			<value>277000</value>
 		</property>
-		<relationship name="referenceableData">
-			<destination>{df2ec6f7-faeb-479a-9a57-ed5257a702ea}</destination>
-		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{d62efc31-0dda-4a8e-bd9a-3fe7b8d1c322}" />
 </objects>

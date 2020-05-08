@@ -103,6 +103,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{fd12ba37-0dcc-4ffc-a69d-cb5e9dfa1f13}">
+		<property name="volume">
+			<value>-5.5</value>
+		</property>
 		<property name="name">
 			<value>shallow creek water</value>
 		</property>

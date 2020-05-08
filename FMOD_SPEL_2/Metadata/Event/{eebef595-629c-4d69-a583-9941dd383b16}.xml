@@ -107,6 +107,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{f7d59f7b-cce0-4465-a37c-22a0d2e22273}">
+		<property name="volume">
+			<value>-5</value>
+		</property>
 		<property name="name">
 			<value>step on branches</value>
 		</property>

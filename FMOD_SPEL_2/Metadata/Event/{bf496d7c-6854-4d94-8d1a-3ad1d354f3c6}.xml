@@ -31,6 +31,9 @@
 		<relationship name="timeline">
 			<destination>{b3286ad3-4aec-4dc7-9dad-8a7a87e0d6a3}</destination>
 		</relationship>
+		<relationship name="banks">
+			<destination>{02be6085-bf05-417a-b6fc-9624782685c5}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixer" id="{95601a80-b042-4caf-bccf-b331b4a33b6f}">
 		<relationship name="masterBus">
@@ -123,7 +126,7 @@
 	<object class="MixerBusPanner" id="{2c75f51b-059e-452a-916c-317c23ef5981}" />
 	<object class="MixerSend" id="{94171038-67a0-4075-8a3f-f9cfa38314d8}">
 		<property name="level">
-			<value>-38</value>
+			<value>-42</value>
 		</property>
 		<property name="inputFormat">
 			<value>0</value>
