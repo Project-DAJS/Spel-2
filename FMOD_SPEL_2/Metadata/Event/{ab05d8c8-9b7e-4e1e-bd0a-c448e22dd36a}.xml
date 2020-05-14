@@ -31,6 +31,10 @@
 		<relationship name="timeline">
 			<destination>{83972249-18b2-42c0-a324-7645efb402dd}</destination>
 		</relationship>
+		<relationship name="parameters">
+			<destination>{0fab4353-c815-4fc6-9970-e5b62eea8cff}</destination>
+			<destination>{0b0df511-8914-4daa-9c64-bd1432cdb75d}</destination>
+		</relationship>
 		<relationship name="banks">
 			<destination>{95ac821b-fd23-40f5-8f0f-a7f3e767b2ca}</destination>
 		</relationship>
@@ -69,6 +73,16 @@
 	<object class="Timeline" id="{83972249-18b2-42c0-a324-7645efb402dd}">
 		<relationship name="modules">
 			<destination>{6fa0e5df-ecaf-496a-9775-d6769fce0838}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterProxy" id="{0fab4353-c815-4fc6-9970-e5b62eea8cff}">
+		<relationship name="preset">
+			<destination>{fa43ec38-d496-4346-9dd8-89a1d10247c8}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterProxy" id="{0b0df511-8914-4daa-9c64-bd1432cdb75d}">
+		<relationship name="preset">
+			<destination>{a49db033-0936-4aa4-b508-37d20ea11d67}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{0b99182e-422b-458e-b90f-ddd4f9ba0e65}">
@@ -112,6 +126,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{e9bf9abe-1cef-4363-b2d6-c873fe4ae2a6}">
 		<relationship name="effects">
+			<destination>{0cbd5df0-806e-4b08-924e-f6442eb37b4c}</destination>
 			<destination>{1a713646-f049-4855-ae43-c347229cea7b}</destination>
 			<destination>{4dec981c-baa1-4a23-98d8-66f43ad9c5f0}</destination>
 		</relationship>
@@ -125,6 +140,14 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{433af16a-254b-4fb8-9221-027c67f7ed92}" />
+	<object class="ProxyEffect" id="{0cbd5df0-806e-4b08-924e-f6442eb37b4c}">
+		<property name="inputFormat">
+			<value>1</value>
+		</property>
+		<relationship name="preset">
+			<destination>{6a422863-864e-414d-8084-15abcbfa8a5a}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{1a713646-f049-4855-ae43-c347229cea7b}" />
 	<object class="SpatialiserEffect" id="{4dec981c-baa1-4a23-98d8-66f43ad9c5f0}" />
 	<object class="MixerSend" id="{10c9b00a-3398-4e2b-87f3-5d8c782d78c8}">

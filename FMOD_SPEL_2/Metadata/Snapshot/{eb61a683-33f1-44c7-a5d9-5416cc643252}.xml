@@ -54,7 +54,11 @@
 			<destination>{b107cf46-4234-4025-8766-70c1e5244fe5}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{689c1210-a0af-4145-8edc-558593e4c9d2}" />
+	<object class="EventAutomatableProperties" id="{689c1210-a0af-4145-8edc-558593e4c9d2}">
+		<relationship name="automators">
+			<destination>{9ffb806a-eed7-4dfe-ba2b-695430a4660a}</destination>
+		</relationship>
+	</object>
 	<object class="MarkerTrack" id="{c3ac03ac-e48b-4dc2-962c-a2a59091f89a}" />
 	<object class="Timeline" id="{14cdcd25-f7a5-4fd1-8b1c-2767cf031ee9}" />
 	<object class="SnapshotMasterTrack" id="{56349990-fc85-4920-baeb-025826c1128a}" />
@@ -74,7 +78,7 @@
 			<value>volume</value>
 		</property>
 		<property name="value">
-			<value>-80</value>
+			<value>0</value>
 		</property>
 		<relationship name="automatableObject">
 			<destination>{bcc875f6-301d-4d52-b88f-e7f996e696a9}</destination>
@@ -303,5 +307,10 @@
 		<relationship name="mixerStrip">
 			<destination>{15e8e758-4fee-46e4-814e-759b068b5cb0}</destination>
 		</relationship>
+	</object>
+	<object class="Automator" id="{9ffb806a-eed7-4dfe-ba2b-695430a4660a}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>snapshotIntensity</value>
+		</property>
 	</object>
 </objects>

@@ -31,6 +31,10 @@
 		<relationship name="timeline">
 			<destination>{d9580803-efc2-4d61-935f-2493cfcebfa2}</destination>
 		</relationship>
+		<relationship name="parameters">
+			<destination>{a6878709-93e1-4e1e-af88-3b54364950b7}</destination>
+			<destination>{b6a7dc6e-8310-4818-b686-10ff41d86e9d}</destination>
+		</relationship>
 		<relationship name="banks">
 			<destination>{48d747e1-b3be-4901-ab1a-e0ebc50a66c8}</destination>
 		</relationship>
@@ -72,6 +76,16 @@
 		</relationship>
 		<relationship name="markers">
 			<destination>{6e75d082-634f-4abd-8619-04b15e7e38e9}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterProxy" id="{a6878709-93e1-4e1e-af88-3b54364950b7}">
+		<relationship name="preset">
+			<destination>{fa43ec38-d496-4346-9dd8-89a1d10247c8}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterProxy" id="{b6a7dc6e-8310-4818-b686-10ff41d86e9d}">
+		<relationship name="preset">
+			<destination>{a49db033-0936-4aa4-b508-37d20ea11d67}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{fb7b71d5-a704-4ed8-9cda-339aab68f469}">
@@ -135,6 +149,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{ec5b2e7a-0383-478f-b26d-2e22e57c148f}">
 		<relationship name="effects">
+			<destination>{58eeaef8-6f49-4825-851a-53cdfefc375a}</destination>
 			<destination>{fcd0438c-d140-4332-8bc3-0336f4262138}</destination>
 			<destination>{044d4d07-41a4-4c86-a4e8-1a57a8946bf3}</destination>
 		</relationship>
@@ -148,6 +163,14 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{0e81503b-1bf1-4ee8-85d6-e4431a223401}" />
+	<object class="ProxyEffect" id="{58eeaef8-6f49-4825-851a-53cdfefc375a}">
+		<property name="inputFormat">
+			<value>0</value>
+		</property>
+		<relationship name="preset">
+			<destination>{6a422863-864e-414d-8084-15abcbfa8a5a}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{fcd0438c-d140-4332-8bc3-0336f4262138}" />
 	<object class="SpatialiserEffect" id="{044d4d07-41a4-4c86-a4e8-1a57a8946bf3}" />
 	<object class="MixerSend" id="{fd81adae-7471-4af6-b7b0-575b738dd026}">

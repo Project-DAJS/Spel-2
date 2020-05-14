@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.00.00">
-	<object class="AudioFile" id="{a37292a0-eefe-4ab8-a115-f36198c2cb00}">
+	<object class="AudioFile" id="{33fb98b2-7d84-462f-9e26-7ccfe63c7ba7}">
 		<property name="assetPath">
-			<value>Ambience/Room Tone, Swimming Pool, Big Fan, Switched Off  SND4263 4 merged_2.wav</value>
+			<value>Character SFX/Objects/Clock, Electric, Tick 1 SND12582 1.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
 		</property>
 		<property name="channelCount">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<property name="length">
-			<value>40</value>
+			<value>10</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{d47fbdba-3430-421a-9238-72af008289a8}</destination>

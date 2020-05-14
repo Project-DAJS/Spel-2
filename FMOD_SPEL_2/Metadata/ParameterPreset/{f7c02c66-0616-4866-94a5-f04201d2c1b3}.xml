@@ -16,7 +16,7 @@
 			<value>1</value>
 		</property>
 		<property name="maximum">
-			<value>6</value>
+			<value>7</value>
 		</property>
 		<property name="isGlobal">
 			<value>true</value>
@@ -25,7 +25,7 @@
 			<value>1</value>
 		</property>
 		<property name="seekSpeed">
-			<value>0.94999992847442627</value>
+			<value>1.1399999141693113</value>
 		</property>
 		<property name="isExposedRecursively">
 			<value>false</value>

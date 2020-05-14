@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="Snapshot" id="{874b967e-ac12-4c33-bb58-46c8cbb10d38}">
+		<property name="name">
+			<value>Underwater</value>
+		</property>
+		<relationship name="mixer">
+			<destination>{e634c596-ad87-4f81-a8ca-b33305696829}</destination>
+		</relationship>
+		<relationship name="automatableProperties">
+			<destination>{bf9cf621-157b-497b-bb79-4dcb8a4b8900}</destination>
+		</relationship>
+		<relationship name="markerTracks">
+			<destination>{84d46abb-53ac-4da2-81b0-7f2eb7f9cef3}</destination>
+		</relationship>
+		<relationship name="timeline">
+			<destination>{5f2cf849-4731-46c4-bbf1-0842fee61d87}</destination>
+		</relationship>
+		<relationship name="snapshotMasterTrack">
+			<destination>{70421190-b05c-4f79-9e43-bfbce27d4dea}</destination>
+		</relationship>
+	</object>
+	<object class="EventAutomatableProperties" id="{bf9cf621-157b-497b-bb79-4dcb8a4b8900}">
+		<relationship name="automators">
+			<destination>{6fa3a447-c5a0-4e74-88ae-0dd9323ffeea}</destination>
+		</relationship>
+	</object>
+	<object class="MarkerTrack" id="{84d46abb-53ac-4da2-81b0-7f2eb7f9cef3}" />
+	<object class="Timeline" id="{5f2cf849-4731-46c4-bbf1-0842fee61d87}" />
+	<object class="SnapshotMasterTrack" id="{70421190-b05c-4f79-9e43-bfbce27d4dea}" />
+	<object class="Automator" id="{6fa3a447-c5a0-4e74-88ae-0dd9323ffeea}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>snapshotIntensity</value>
+		</property>
+	</object>
+</objects>

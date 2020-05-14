@@ -31,6 +31,10 @@
 		<relationship name="timeline">
 			<destination>{dafb354d-1921-4642-82ac-9303f59cb2d2}</destination>
 		</relationship>
+		<relationship name="parameters">
+			<destination>{b481d876-a9fe-4420-a82a-317bd4c20dea}</destination>
+			<destination>{af54f86b-cea2-4af3-96f0-d9917ba13ecf}</destination>
+		</relationship>
 		<relationship name="banks">
 			<destination>{48d747e1-b3be-4901-ab1a-e0ebc50a66c8}</destination>
 		</relationship>
@@ -69,6 +73,16 @@
 	<object class="Timeline" id="{dafb354d-1921-4642-82ac-9303f59cb2d2}">
 		<relationship name="modules">
 			<destination>{00491172-2d18-4a8b-bdb2-4ed8fa2518a7}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterProxy" id="{b481d876-a9fe-4420-a82a-317bd4c20dea}">
+		<relationship name="preset">
+			<destination>{fa43ec38-d496-4346-9dd8-89a1d10247c8}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterProxy" id="{af54f86b-cea2-4af3-96f0-d9917ba13ecf}">
+		<relationship name="preset">
+			<destination>{a49db033-0936-4aa4-b508-37d20ea11d67}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{04d402a5-1b40-4957-933e-44243275d7d3}">
@@ -127,6 +141,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{ab33490b-c963-458b-a70f-ca1224364530}">
 		<relationship name="effects">
+			<destination>{00464914-96ac-4680-beda-636073f9f36b}</destination>
 			<destination>{20ba01c4-ea52-4ddb-b99e-b8c1256ea661}</destination>
 			<destination>{faf252a7-784f-498a-9881-3165114be5a6}</destination>
 		</relationship>
@@ -147,6 +162,14 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{f60da0b3-8628-4c05-b0e3-091dae300097}" />
+	<object class="ProxyEffect" id="{00464914-96ac-4680-beda-636073f9f36b}">
+		<property name="inputFormat">
+			<value>5</value>
+		</property>
+		<relationship name="preset">
+			<destination>{6a422863-864e-414d-8084-15abcbfa8a5a}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{20ba01c4-ea52-4ddb-b99e-b8c1256ea661}" />
 	<object class="SpatialiserEffect" id="{faf252a7-784f-498a-9881-3165114be5a6}" />
 	<object class="SingleSound" id="{8bc4f492-de72-4176-ae6a-be3aab223a46}">
