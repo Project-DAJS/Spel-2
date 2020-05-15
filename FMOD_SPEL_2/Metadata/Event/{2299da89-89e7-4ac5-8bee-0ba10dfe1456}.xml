@@ -53,7 +53,7 @@
 			<destination>{3fe6423f-f4e6-47c0-996d-8feb7480a78b}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{61150af0-f58b-4ebe-8031-02ad5e0598a0}</destination>
+			<destination>{e83c2f0b-fc57-4e24-a7f7-85528b04a99a}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{494898d1-642d-4c7a-be5b-06609b8653de}" />
@@ -69,6 +69,9 @@
 	<object class="Timeline" id="{e046d5a0-b012-4407-ab90-cf006f6c0141}">
 		<relationship name="modules">
 			<destination>{8635240f-69f6-48e7-afab-c2b52496cf44}</destination>
+		</relationship>
+		<relationship name="markers">
+			<destination>{221112cf-70dc-4bfc-88ce-e2d9833c854f}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{15da3ec8-e9f2-4361-85e5-f5c2dac207ba}">
@@ -90,7 +93,10 @@
 	<object class="MixerBusPanner" id="{3fe6423f-f4e6-47c0-996d-8feb7480a78b}" />
 	<object class="SingleSound" id="{8635240f-69f6-48e7-afab-c2b52496cf44}">
 		<property name="length">
-			<value>8.4661904761904765</value>
+			<value>7.6000000000000005</value>
+		</property>
+		<property name="looping">
+			<value>true</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{71b2c62e-ec09-49aa-a65c-522a89b58421}</destination>
@@ -113,9 +119,27 @@
 			<destination>{15da3ec8-e9f2-4361-85e5-f5c2dac207ba}</destination>
 		</relationship>
 	</object>
+	<object class="LoopRegion" id="{221112cf-70dc-4bfc-88ce-e2d9833c854f}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="length">
+			<value>7.6000000000000005</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{e046d5a0-b012-4407-ab90-cf006f6c0141}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{48d519a8-a861-4c38-99b6-eee83dcd5d9a}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{16bec315-a591-40be-a90f-2ddb60b90fef}">
 		<relationship name="effects">
+			<destination>{4ccd34d6-e6a8-4312-b851-2526577e8c3e}</destination>
 			<destination>{9022e862-ff5b-452a-a556-0bf9a84d6829}</destination>
+			<destination>{8acd1f03-1caa-4cf6-92c0-feb2593cf512}</destination>
+			<destination>{88be4cf7-3995-42b2-9d97-85e96a80976f}</destination>
+			<destination>{73923a11-cdfe-45ae-bcea-bdf1c0077e57}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{109f64c8-5c0b-4829-b586-8a53f86e7ed1}" />
@@ -127,7 +151,75 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{96867d03-1cf0-4e0e-ba63-3454eb2ccb8b}" />
+	<object class="MultibandEqEffect" id="{4ccd34d6-e6a8-4312-b851-2526577e8c3e}">
+		<property name="filterTypeA">
+			<value>0</value>
+		</property>
+		<property name="filterTypeB">
+			<value>9</value>
+		</property>
+		<property name="filterTypeC">
+			<value>9</value>
+		</property>
+		<property name="frequencyA">
+			<value>21999.9902</value>
+		</property>
+		<property name="frequencyB">
+			<value>447.46637</value>
+		</property>
+		<property name="frequencyC">
+			<value>207.88681</value>
+		</property>
+		<property name="qualityA">
+			<value>0.910125613</value>
+		</property>
+		<property name="qualityB">
+			<value>1.19999993</value>
+		</property>
+		<property name="qualityC">
+			<value>1.69999993</value>
+		</property>
+		<property name="gainB">
+			<value>-9</value>
+		</property>
+		<property name="gainC">
+			<value>-7</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{9022e862-ff5b-452a-a556-0bf9a84d6829}" />
+	<object class="MixerSend" id="{8acd1f03-1caa-4cf6-92c0-feb2593cf512}">
+		<property name="level">
+			<value>-40</value>
+		</property>
+		<property name="inputFormat">
+			<value>1</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{f06e27fa-9849-4c64-8f24-25b14731e873}</destination>
+		</relationship>
+	</object>
+	<object class="MixerSend" id="{88be4cf7-3995-42b2-9d97-85e96a80976f}">
+		<property name="level">
+			<value>-40</value>
+		</property>
+		<property name="inputFormat">
+			<value>1</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{bcc875f6-301d-4d52-b88f-e7f996e696a9}</destination>
+		</relationship>
+	</object>
+	<object class="MixerSend" id="{73923a11-cdfe-45ae-bcea-bdf1c0077e57}">
+		<property name="level">
+			<value>-40</value>
+		</property>
+		<property name="inputFormat">
+			<value>1</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{c6d5dfc2-5426-40e8-9a6a-ffeb6d0ab511}</destination>
+		</relationship>
+	</object>
 	<object class="ThreeEQEffect" id="{de51add8-852e-4268-a0ad-dedf5c2edbba}">
 		<property name="lowGain">
 			<value>-10</value>
