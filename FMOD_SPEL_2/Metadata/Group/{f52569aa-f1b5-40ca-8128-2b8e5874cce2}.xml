@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{f52569aa-f1b5-40ca-8128-2b8e5874cce2}">
+		<property name="name">
+			<value>Cutscene Badhus</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{abe4a380-3a49-44ac-89b2-b8434c56c77b}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{4914335e-aa72-4c6e-8f31-131dd480e6e4}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{61150af0-f58b-4ebe-8031-02ad5e0598a0}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{abe4a380-3a49-44ac-89b2-b8434c56c77b}">
+		<relationship name="effects">
+			<destination>{8c54109d-f5af-4d70-96ad-89ae7879d280}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{4914335e-aa72-4c6e-8f31-131dd480e6e4}" />
+	<object class="MixerBusFader" id="{8c54109d-f5af-4d70-96ad-89ae7879d280}" />
+</objects>
