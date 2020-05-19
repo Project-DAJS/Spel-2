@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="Event" id="{71a0f97b-938c-4ae1-a094-1be6de279a95}">
 		<property name="name">
-			<value>Place tile in portal</value>
+			<value>Place portal piece in portal</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -110,6 +110,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{a389e20a-ab79-4e22-812f-ced781d2a195}">
+		<property name="volume">
+			<value>-20.5</value>
+		</property>
 		<property name="name">
 			<value>tile</value>
 		</property>
@@ -125,7 +128,7 @@
 	</object>
 	<object class="SingleSound" id="{1b244065-4284-4b5d-a810-468ec97cae89}">
 		<property name="start">
-			<value>0.80000000000000004</value>
+			<value>0.15000000000000002</value>
 		</property>
 		<property name="length">
 			<value>8.3225170068027214</value>
@@ -141,6 +144,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{89173664-d9e5-4c28-9513-5d7b848df963}">
+		<property name="volume">
+			<value>-8.5</value>
+		</property>
 		<property name="name">
 			<value>magic sound</value>
 		</property>
@@ -213,7 +219,7 @@
 	<object class="MixerBusFader" id="{c8b917fd-c9b4-4c8f-9859-c32114a5bb95}" />
 	<object class="AutomationPoint" id="{da5ded2e-492e-46df-869f-4ffe9ba674d3}">
 		<property name="position">
-			<value>3</value>
+			<value>2.3499999999999996</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -224,7 +230,7 @@
 	</object>
 	<object class="AutomationPoint" id="{bbd637fa-402f-4668-84a0-3afb12502cab}">
 		<property name="position">
-			<value>9.1225170068027222</value>
+			<value>8.4725170068027218</value>
 		</property>
 		<property name="value">
 			<value>0</value>
