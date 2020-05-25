@@ -149,7 +149,11 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{0761012b-4f52-43b6-9f01-2d3aa2e7b3de}" />
-	<object class="SpatialiserEffect" id="{bb2c4af3-f9e2-4ae8-b583-ec43aaa4222c}" />
+	<object class="SpatialiserEffect" id="{bb2c4af3-f9e2-4ae8-b583-ec43aaa4222c}">
+		<property name="extentMode">
+			<value>2</value>
+		</property>
+	</object>
 	<object class="MixerSend" id="{e9570089-b804-4ccb-b5c1-4b88a1b6bc5c}">
 		<property name="level">
 			<value>-26</value>

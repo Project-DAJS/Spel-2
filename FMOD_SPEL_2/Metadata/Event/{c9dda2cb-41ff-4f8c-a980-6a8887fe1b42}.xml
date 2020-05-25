@@ -5,7 +5,7 @@
 			<value>Footsteps</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{e5e0b0d1-bee2-4d40-b5c9-5db396b4f5b6}</destination>
@@ -646,6 +646,7 @@
 	<object class="MixerBusEffectChain" id="{ab63ae43-e548-4dc4-9189-7c702be388c9}">
 		<relationship name="effects">
 			<destination>{b2dd80e7-f465-4d2b-ba00-f79a093a14f2}</destination>
+			<destination>{d99f0d26-301b-4faf-a30b-436f35bc8d71}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{5a2c4d20-833e-49fb-a9c3-25539ab8d472}" />
@@ -1350,6 +1351,7 @@
 	</object>
 	<object class="MixerBusPanner" id="{7931cfc3-bb87-4357-8787-82ddf513eada}" />
 	<object class="MixerBusFader" id="{b2dd80e7-f465-4d2b-ba00-f79a093a14f2}" />
+	<object class="SpatialiserEffect" id="{d99f0d26-301b-4faf-a30b-436f35bc8d71}" />
 	<object class="AutomationPoint" id="{933e4a8d-98de-4fbd-a9fe-c2412ad99202}">
 		<property name="position">
 			<value>0</value>
@@ -2012,7 +2014,7 @@
 			<value>7</value>
 		</property>
 		<property name="value">
-			<value>-10.5</value>
+			<value>-7</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{a07fa0db-64c4-439b-a0ce-3ecee4a3c117}">
@@ -2020,7 +2022,7 @@
 			<value>6</value>
 		</property>
 		<property name="value">
-			<value>-80</value>
+			<value>-58.3333321</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{6f0759dc-46fc-43e3-a30c-7f9de4fcb6a1}">
@@ -2028,7 +2030,7 @@
 			<value>8</value>
 		</property>
 		<property name="value">
-			<value>-80</value>
+			<value>-58.3333321</value>
 		</property>
 	</object>
 </objects>

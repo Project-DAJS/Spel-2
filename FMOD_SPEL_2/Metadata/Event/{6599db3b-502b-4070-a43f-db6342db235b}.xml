@@ -139,9 +139,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{8d633066-bef4-48ef-bb30-ada235c2d2fc}" />
 	<object class="MixerSend" id="{8d0357d0-0d1f-467a-9312-4790a7295325}">
-		<property name="bypass">
-			<value>true</value>
-		</property>
 		<property name="level">
 			<value>-45</value>
 		</property>

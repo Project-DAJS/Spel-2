@@ -168,6 +168,10 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{f151ec4e-787f-4f28-8697-c3e823b8af67}" />
-	<object class="SpatialiserEffect" id="{2e693b11-f391-4103-a18c-53ef81b76e19}" />
+	<object class="SpatialiserEffect" id="{2e693b11-f391-4103-a18c-53ef81b76e19}">
+		<property name="extentMode">
+			<value>2</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{803b6cbf-56bf-49bc-9850-c3073bdbed8a}" />
 </objects>

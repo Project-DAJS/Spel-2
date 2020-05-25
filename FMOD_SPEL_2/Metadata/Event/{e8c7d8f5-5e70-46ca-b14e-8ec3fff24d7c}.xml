@@ -155,7 +155,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{e63103a3-6519-4cb7-8391-188a01383c7a}">
 		<property name="volume">
-			<value>-27</value>
+			<value>-32</value>
 		</property>
 		<property name="name">
 			<value>Forest</value>
@@ -419,7 +419,7 @@
 	</object>
 	<object class="MixerSend" id="{ec1550f9-787c-4e52-af0f-cd2c15758666}">
 		<property name="level">
-			<value>-22.5</value>
+			<value>-37</value>
 		</property>
 		<property name="inputFormat">
 			<value>5</value>
@@ -432,7 +432,10 @@
 	<object class="MixerBusFader" id="{3027bcc3-d654-4d04-8d5f-3d4663ebf5f5}" />
 	<object class="ThreeEQEffect" id="{87e95768-67be-4de9-ba45-21498e52b559}">
 		<property name="lowGain">
-			<value>-5</value>
+			<value>-8.5</value>
+		</property>
+		<property name="midGain">
+			<value>-2</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{39b36099-0790-4f15-8326-d8b9508a3943}" />
