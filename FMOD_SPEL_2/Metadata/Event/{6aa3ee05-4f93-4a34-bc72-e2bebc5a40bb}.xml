@@ -121,7 +121,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{e6a55070-21f1-4a5a-8c4a-81486321642c}">
 		<property name="volume">
-			<value>-16.5</value>
+			<value>-31</value>
 		</property>
 		<property name="name">
 			<value>Underwater ceiling</value>
@@ -163,6 +163,7 @@
 		<relationship name="effects">
 			<destination>{2eda145d-818e-47a2-810d-ae6af22bcd69}</destination>
 			<destination>{1cb11aa5-6582-47aa-a86b-2cc0cbdb4cd0}</destination>
+			<destination>{23cd7234-970e-4a0d-8ab4-c57c93b366b1}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{16f7f831-b982-42c6-a4d9-197785e41be8}" />
@@ -207,4 +208,9 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{1cb11aa5-6582-47aa-a86b-2cc0cbdb4cd0}" />
+	<object class="LowpassEffect" id="{23cd7234-970e-4a0d-8ab4-c57c93b366b1}">
+		<property name="cutoff">
+			<value>280</value>
+		</property>
+	</object>
 </objects>

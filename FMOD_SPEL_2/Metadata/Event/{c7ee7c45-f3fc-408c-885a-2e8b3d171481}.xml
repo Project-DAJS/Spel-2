@@ -120,13 +120,17 @@
 		<property name="looping">
 			<value>true</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{ecb424d8-d3ea-45ed-b3f5-0c57a9934d9a}</destination>
+			<destination>{79134057-13d0-4289-bac0-cf8df717006d}</destination>
+		</relationship>
 		<relationship name="audioFile">
 			<destination>{cf3f6be6-5e7e-4190-914e-99aa7d4a6457}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{5d0ec0b0-1638-4f2e-8f94-546238061d4b}">
 		<property name="volume">
-			<value>-11.5</value>
+			<value>-14</value>
 		</property>
 		<property name="name">
 			<value>eerie amb</value>
@@ -164,6 +168,31 @@
 	</object>
 	<object class="MixerBusPanner" id="{6d37073d-f0ef-45b4-984c-2e2342386e37}" />
 	<object class="MixerBusFader" id="{78c17a00-c35b-4c1c-8cfe-7ef8a35c3da2}" />
+	<object class="LFOModulator" id="{ecb424d8-d3ea-45ed-b3f5-0c57a9934d9a}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="rate">
+			<value>0.100000009</value>
+		</property>
+		<property name="depth">
+			<value>4</value>
+		</property>
+		<property name="direction">
+			<value>-100</value>
+		</property>
+	</object>
+	<object class="LFOModulator" id="{79134057-13d0-4289-bac0-cf8df717006d}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="rate">
+			<value>0.0550000034</value>
+		</property>
+		<property name="depth">
+			<value>4</value>
+		</property>
+	</object>
 	<object class="MixerBusEffectChain" id="{a6133ca0-e2aa-48ad-9237-b5d2b13c369f}">
 		<relationship name="effects">
 			<destination>{e5189820-f0f2-4b76-8bb0-4fcf7c4fb78e}</destination>
@@ -188,7 +217,7 @@
 	<object class="MixerBusFader" id="{1db7c8e0-5f48-402a-b883-a720e3dc24de}" />
 	<object class="ThreeEQEffect" id="{e5189820-f0f2-4b76-8bb0-4fcf7c4fb78e}">
 		<property name="lowGain">
-			<value>-7.5</value>
+			<value>-2.5</value>
 		</property>
 		<property name="lowCrossover">
 			<value>320</value>
