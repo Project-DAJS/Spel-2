@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="Event" id="{1c4a8099-cd78-4a82-b38c-0e0cf919053d}">
 		<property name="name">
-			<value>Swimming</value>
+			<value>Swimming underwater</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -118,7 +118,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{83b4e866-1aeb-4df5-bc9b-ee5457b3c524}">
 		<property name="volume">
-			<value>-10.5</value>
+			<value>-9</value>
 		</property>
 		<property name="name">
 			<value>swimming</value>
@@ -206,6 +206,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{b5d2914a-a10c-4ec4-a8ed-1fd0318fad6d}">
 		<relationship name="effects">
+			<destination>{b8f49d3a-bbd8-4e7d-b8a8-7215a8906561}</destination>
 			<destination>{3b5c6a23-6309-471d-b352-e59e624e154b}</destination>
 		</relationship>
 	</object>
@@ -219,7 +220,7 @@
 			<value>1</value>
 		</property>
 		<property name="curveShape">
-			<value>0.25471893</value>
+			<value>0.840063453</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{7cdf9aac-2812-420c-83b9-323df0297c8e}">
@@ -228,6 +229,29 @@
 		</property>
 		<property name="value">
 			<value>0</value>
+		</property>
+	</object>
+	<object class="MultibandEqEffect" id="{b8f49d3a-bbd8-4e7d-b8a8-7215a8906561}">
+		<property name="filterTypeA">
+			<value>9</value>
+		</property>
+		<property name="filterTypeB">
+			<value>7</value>
+		</property>
+		<property name="frequencyA">
+			<value>220</value>
+		</property>
+		<property name="frequencyB">
+			<value>180</value>
+		</property>
+		<property name="qualityA">
+			<value>0.74999994</value>
+		</property>
+		<property name="gainA">
+			<value>-10.5</value>
+		</property>
+		<property name="gainB">
+			<value>-9.5</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{3b5c6a23-6309-471d-b352-e59e624e154b}" />

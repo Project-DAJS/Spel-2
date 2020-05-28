@@ -5,7 +5,7 @@
 			<value>Step into bushes</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>0</value>
 		</property>
 		<relationship name="folder">
 			<destination>{e5e0b0d1-bee2-4d40-b5c9-5db396b4f5b6}</destination>
@@ -123,7 +123,6 @@
 	<object class="MixerBusEffectChain" id="{9e416400-fcd0-434d-aa6a-96bab0184f68}">
 		<relationship name="effects">
 			<destination>{1574d1e6-66c6-4f73-bd4b-2e5c647a98a8}</destination>
-			<destination>{c38d9a51-3112-4d36-a717-c08dc66b9775}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{5805feba-3b95-49ac-aec1-2612e63d9d0e}" />
@@ -169,7 +168,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{827d0d67-088d-4185-8966-1427e95695d1}" />
 	<object class="MixerBusFader" id="{1574d1e6-66c6-4f73-bd4b-2e5c647a98a8}" />
-	<object class="SpatialiserEffect" id="{c38d9a51-3112-4d36-a717-c08dc66b9775}" />
 	<object class="MixerSend" id="{af122b76-e6ec-4222-94df-5159a2f260b2}">
 		<property name="level">
 			<value>-48</value>

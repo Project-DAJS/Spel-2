@@ -117,6 +117,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{83092500-60c6-4a55-ab41-8f4b4d119982}">
+		<property name="volume">
+			<value>-17.5</value>
+		</property>
 		<property name="name">
 			<value>fan</value>
 		</property>
@@ -170,6 +173,9 @@
 	</object>
 	<object class="MixerBusFader" id="{534fcafd-195e-48e5-b523-3c9ce695dcad}" />
 	<object class="SpatialiserEffect" id="{07b13114-bc00-4f9a-a67c-ddf55428914b}">
+		<property name="distanceRolloffType">
+			<value>1</value>
+		</property>
 		<property name="extentMode">
 			<value>2</value>
 		</property>

@@ -5,7 +5,7 @@
 			<value>Rock Land on ground</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{293fb06a-7972-4a3b-bcaa-2c55344683ad}</destination>
@@ -98,7 +98,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{2463d673-9e55-4bd6-9171-dbbab02e5adc}">
 		<property name="volume">
-			<value>4</value>
+			<value>-3</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -117,6 +117,7 @@
 		<relationship name="effects">
 			<destination>{a8215e0a-a166-478e-91a2-23fb24f1d47a}</destination>
 			<destination>{d9498687-1989-4753-a01f-413337c15e46}</destination>
+			<destination>{cf655f32-9627-4b66-9dfa-d51241c8b7b1}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{b7e8cbf2-1381-43c3-b58d-40f237f5a40c}" />
@@ -139,5 +140,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{d9498687-1989-4753-a01f-413337c15e46}" />
+	<object class="SpatialiserEffect" id="{cf655f32-9627-4b66-9dfa-d51241c8b7b1}" />
 	<object class="MixerBusFader" id="{10fccb8e-514d-4406-9cfd-22bd100d1849}" />
 </objects>

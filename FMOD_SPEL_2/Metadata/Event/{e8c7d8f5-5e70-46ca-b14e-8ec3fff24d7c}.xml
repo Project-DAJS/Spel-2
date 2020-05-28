@@ -237,7 +237,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{05e099cd-2c9b-41ea-97a6-d1102418fd19}">
 		<property name="volume">
-			<value>-21</value>
+			<value>-28</value>
 		</property>
 		<property name="name">
 			<value>Wind</value>
@@ -266,10 +266,7 @@
 			<value>20000</value>
 		</property>
 		<property name="minimumScatterDistance">
-			<value>7</value>
-		</property>
-		<property name="maximumScatterDistance">
-			<value>25</value>
+			<value>4.20000029</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{11cc094a-6a1e-4fb0-afc3-f4a8c5c741fc}</destination>
@@ -299,6 +296,9 @@
 		<property name="length">
 			<value>58</value>
 		</property>
+		<property name="soundStealing">
+			<value>3</value>
+		</property>
 		<property name="minimumTimeBetweenSounds">
 			<value>2000</value>
 		</property>
@@ -306,10 +306,7 @@
 			<value>8500</value>
 		</property>
 		<property name="minimumScatterDistance">
-			<value>7.5999999</value>
-		</property>
-		<property name="maximumScatterDistance">
-			<value>30</value>
+			<value>3.60000014</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{7fc71db3-c1cf-43e8-9d6a-6edc9591693b}</destination>
@@ -385,6 +382,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{810b0944-5062-4915-9985-7afde83507b9}">
 		<relationship name="effects">
+			<destination>{5def32f8-7eda-4b7e-8954-d4760616cbae}</destination>
 			<destination>{3027bcc3-d654-4d04-8d5f-3d4663ebf5f5}</destination>
 		</relationship>
 	</object>
@@ -442,6 +440,7 @@
 	<object class="MixerBusEffectChain" id="{6877e2bf-0633-4cfc-b803-cb484fb577cd}">
 		<relationship name="effects">
 			<destination>{bbcdf058-032d-45ca-b080-351d7dc21346}</destination>
+			<destination>{43986587-9892-4efb-bf4b-4abc0b06a2b3}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{68589e7e-ef41-4bed-ab59-45bf3313b4e0}" />
@@ -515,6 +514,17 @@
 			<destination>{c6d5dfc2-5426-40e8-9a6a-ffeb6d0ab511}</destination>
 		</relationship>
 	</object>
+	<object class="ThreeEQEffect" id="{5def32f8-7eda-4b7e-8954-d4760616cbae}">
+		<property name="lowGain">
+			<value>-80</value>
+		</property>
+		<property name="midGain">
+			<value>-3.5</value>
+		</property>
+		<property name="highGain">
+			<value>-14</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{3027bcc3-d654-4d04-8d5f-3d4663ebf5f5}" />
 	<object class="ThreeEQEffect" id="{87e95768-67be-4de9-ba45-21498e52b559}">
 		<property name="lowGain">
@@ -556,6 +566,17 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{bbcdf058-032d-45ca-b080-351d7dc21346}" />
+	<object class="MixerSend" id="{43986587-9892-4efb-bf4b-4abc0b06a2b3}">
+		<property name="level">
+			<value>-26</value>
+		</property>
+		<property name="inputFormat">
+			<value>5</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{c6d5dfc2-5426-40e8-9a6a-ffeb6d0ab511}</destination>
+		</relationship>
+	</object>
 	<object class="SingleSound" id="{375ff2b9-9aca-4e9a-90a1-8c009b097fe0}">
 		<property name="volume">
 			<value>-5</value>

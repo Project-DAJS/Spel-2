@@ -130,7 +130,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{5d0ec0b0-1638-4f2e-8f94-546238061d4b}">
 		<property name="volume">
-			<value>-14</value>
+			<value>-17.5</value>
 		</property>
 		<property name="name">
 			<value>eerie amb</value>
@@ -225,7 +225,7 @@
 	</object>
 	<object class="MixerSend" id="{ef7b3a4b-867e-4b29-85a2-ce5a3e411502}">
 		<property name="level">
-			<value>-41</value>
+			<value>-42</value>
 		</property>
 		<property name="inputFormat">
 			<value>1</value>

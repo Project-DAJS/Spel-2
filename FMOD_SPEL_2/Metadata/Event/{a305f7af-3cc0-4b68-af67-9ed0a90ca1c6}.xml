@@ -104,7 +104,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{11f55139-aaf6-416a-9197-307271e95b83}">
 		<property name="volume">
-			<value>-4</value>
+			<value>-14</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -122,6 +122,7 @@
 	<object class="MixerBusEffectChain" id="{6cb09f06-7cdc-4378-8a35-06402bc46173}">
 		<relationship name="effects">
 			<destination>{dadc7a96-a515-47aa-9db3-5be62c4134f2}</destination>
+			<destination>{910e2f42-3256-4731-8d2c-cd7f52ce3cdd}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{0f11270f-e9f4-40fe-9582-159a42eb6ef9}" />
@@ -149,6 +150,17 @@
 	</object>
 	<object class="MixerBusPanner" id="{922d977f-1329-405a-862a-9930a822108f}" />
 	<object class="MixerBusFader" id="{dadc7a96-a515-47aa-9db3-5be62c4134f2}" />
+	<object class="MixerSend" id="{910e2f42-3256-4731-8d2c-cd7f52ce3cdd}">
+		<property name="level">
+			<value>-26</value>
+		</property>
+		<property name="inputFormat">
+			<value>1</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{f06e27fa-9849-4c64-8f24-25b14731e873}</destination>
+		</relationship>
+	</object>
 	<object class="AutomationPoint" id="{a7ccaddd-ef4a-48b7-a563-83e0b3f0cf43}">
 		<property name="position">
 			<value>0</value>

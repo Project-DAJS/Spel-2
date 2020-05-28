@@ -98,7 +98,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{3582c788-fdaf-46f5-bcc9-f43c7829d8cb}">
 		<property name="volume">
-			<value>-5.5</value>
+			<value>-19.5</value>
 		</property>
 		<property name="name">
 			<value>out of lake</value>

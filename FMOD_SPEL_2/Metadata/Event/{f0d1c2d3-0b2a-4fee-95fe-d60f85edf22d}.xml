@@ -97,6 +97,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{c265c207-11a6-4440-9149-fa99a5cb5300}">
+		<property name="volume">
+			<value>-7</value>
+		</property>
 		<property name="name">
 			<value>whistle</value>
 		</property>
@@ -127,7 +130,7 @@
 	<object class="MixerBusFader" id="{5305588f-588f-44f0-9665-bf859f4d84a8}" />
 	<object class="MixerSend" id="{bc367fd8-b685-4e6a-ae40-0a72274297aa}">
 		<property name="level">
-			<value>-19</value>
+			<value>-11</value>
 		</property>
 		<property name="inputFormat">
 			<value>0</value>
