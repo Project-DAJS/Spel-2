@@ -104,7 +104,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{f7a2a3b6-5c26-4939-8a5a-151a59ab6c98}">
 		<property name="volume">
-			<value>-8</value>
+			<value>-20.5</value>
 		</property>
 		<property name="name">
 			<value>portal piece</value>
@@ -160,6 +160,10 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{3568cfe6-d831-45d6-a598-342650f9d539}" />
-	<object class="SpatialiserEffect" id="{b686e76e-7cc7-446d-872b-2f689ecd617c}" />
+	<object class="SpatialiserEffect" id="{b686e76e-7cc7-446d-872b-2f689ecd617c}">
+		<property name="extentMode">
+			<value>2</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{de694eea-d8c8-4044-981b-5450fb966c38}" />
 </objects>
