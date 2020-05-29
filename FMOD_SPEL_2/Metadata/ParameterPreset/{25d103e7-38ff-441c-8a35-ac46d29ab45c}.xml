@@ -1,37 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.00.00">
-	<object class="ParameterPreset" id="{28881071-0fcd-4e78-a97e-fca56375613c}">
+	<object class="ParameterPreset" id="{25d103e7-38ff-441c-8a35-ac46d29ab45c}">
 		<property name="name">
-			<value>Speed</value>
+			<value>StartGain</value>
 		</property>
 		<relationship name="folder">
 			<destination>{af3b0d07-0773-4a4c-bac3-848b3d7914ba}</destination>
 		</relationship>
 		<relationship name="parameter">
-			<destination>{1adc1cb2-17fa-44b1-b509-8311bb3e59a2}</destination>
+			<destination>{ffcf1a30-8219-4449-b80f-8384534c6927}</destination>
 		</relationship>
 	</object>
-	<object class="GameParameter" id="{1adc1cb2-17fa-44b1-b509-8311bb3e59a2}">
-		<property name="parameterType">
-			<value>8</value>
-		</property>
+	<object class="GameParameter" id="{ffcf1a30-8219-4449-b80f-8384534c6927}">
 		<property name="maximum">
-			<value>10</value>
+			<value>2</value>
 		</property>
 		<property name="initialValue">
 			<value>0</value>
 		</property>
+		<property name="velocity">
+			<value>0.44999998807907104</value>
+		</property>
 		<property name="seekSpeed">
-			<value>19</value>
+			<value>1.1000000238418579</value>
 		</property>
 		<property name="seekSpeedDescending">
-			<value>30</value>
-		</property>
-		<property name="seekSpeedAsymmetric">
-			<value>true</value>
-		</property>
-		<property name="isExposedRecursively">
-			<value>false</value>
+			<value>1.6200000047683716</value>
 		</property>
 	</object>
 </objects>
