@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{2b83d19e-5f01-4d6e-8131-c1061982cb64}">
+		<property name="name">
+			<value>LuftShaftet</value>
+		</property>
+		<relationship name="folder">
+			<destination>{af3b0d07-0773-4a4c-bac3-848b3d7914ba}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{53d47649-1d21-486d-bcfa-7dc8e5a9074e}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{53d47649-1d21-486d-bcfa-7dc8e5a9074e}">
+		<property name="initialValue">
+			<value>1</value>
+		</property>
+		<property name="seekSpeed">
+			<value>0.13000001013278961</value>
+		</property>
+	</object>
+</objects>
