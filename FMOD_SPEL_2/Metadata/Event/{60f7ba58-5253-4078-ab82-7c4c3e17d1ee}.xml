@@ -48,6 +48,9 @@ alla hel nummer 1, 2, 3, 4 och 5
 			<destination>{12535154-4687-4ef9-99fd-788585bdb6ad}</destination>
 			<destination>{207f0d3f-3cd3-4ab5-bf0a-8eb73224511b}</destination>
 		</relationship>
+		<relationship name="banks">
+			<destination>{400b9828-c632-4171-b0e6-abd926086364}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixer" id="{fd9f280c-7cbc-4728-be04-0b6e35b153e0}">
 		<relationship name="masterBus">
@@ -70,7 +73,7 @@ alla hel nummer 1, 2, 3, 4 och 5
 			<destination>{28b16423-e9ed-4681-a985-35167fb54bff}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{61150af0-f58b-4ebe-8031-02ad5e0598a0}</destination>
+			<destination>{f6cac633-b1af-45a2-9211-3bd221284f61}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{52480457-5b44-485d-a6f0-d532d4db04aa}" />
