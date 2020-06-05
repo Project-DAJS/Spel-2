@@ -32,7 +32,7 @@
 			<destination>{b0355384-d753-4693-b0f1-e3dc732fedf5}</destination>
 		</relationship>
 		<relationship name="banks">
-			<destination>{400b9828-c632-4171-b0e6-abd926086364}</destination>
+			<destination>{f0e14764-6e20-4fb0-a378-c35e92f41505}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{826eaac9-26f2-495a-9c3a-e2b3d02c5a4c}">
@@ -53,7 +53,7 @@
 			<destination>{8b7c7c6e-57cf-4a1a-9ff4-e24f60aa9718}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{f6cac633-b1af-45a2-9211-3bd221284f61}</destination>
+			<destination>{f52569aa-f1b5-40ca-8128-2b8e5874cce2}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{a39dd831-b0dd-453a-bfef-42e42b399968}" />
@@ -92,14 +92,14 @@
 		<property name="length">
 			<value>47</value>
 		</property>
+		<property name="volume">
+			<value>4</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{a10eadf5-ae43-4270-bb70-0af9107e00b5}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{8a645ed1-87be-47d8-84ef-b70da6198a3d}">
-		<property name="volume">
-			<value>6</value>
-		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>

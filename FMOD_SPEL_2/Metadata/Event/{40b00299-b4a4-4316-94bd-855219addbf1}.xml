@@ -13,7 +13,7 @@ master ska växla mellan 0 0ch 10
 			<value>1</value>
 		</property>
 		<relationship name="folder">
-			<destination>{8466f730-1fdb-4020-857f-8612c8042b63}</destination>
+			<destination>{62800c63-6fd2-4300-838c-3930526408ab}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{acdc20f6-d462-4574-806b-1a492580ac14}</destination>
@@ -42,7 +42,7 @@ master ska växla mellan 0 0ch 10
 			<destination>{d0ad1ed2-16e7-452e-9188-c00fdfa26449}</destination>
 		</relationship>
 		<relationship name="banks">
-			<destination>{400b9828-c632-4171-b0e6-abd926086364}</destination>
+			<destination>{38ea8acd-400d-4f31-aac5-864bb77772bf}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{acdc20f6-d462-4574-806b-1a492580ac14}">
@@ -66,7 +66,7 @@ master ska växla mellan 0 0ch 10
 			<destination>{7336f11d-f072-44e0-abc5-55ea76b184c4}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{f6cac633-b1af-45a2-9211-3bd221284f61}</destination>
+			<destination>{f9a306d4-d76a-470a-838e-c6c1e1c741a2}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{16fb2eba-3b0f-4a68-84a7-210911ca7243}" />
